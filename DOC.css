@@ -13,6 +13,10 @@
     .doc-home-link {
         padding: 40px 60px;
     }
+
+    .doc-home-header {
+        font-size: calc(1.525rem + 0.7vw);
+    }
 }
 
 .bg-success {
@@ -24,17 +28,18 @@
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 300;
     line-height: 1.2;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.2rem;
 }
 
 .doc-home-link-body {
     color: #19191a;
     margin-top: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .doc-home-tag {
     color: #888;
+    margin: 10px 0;
 }
 
 .doc-top {
@@ -58,4 +63,9 @@
     right: 20px;
     justify-content: center;
     align-items: center;
+    transition: ease-out 0.3s;
+}
+
+.doc-top:hover {
+    bottom: 30px;
 }
