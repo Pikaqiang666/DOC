@@ -1,11 +1,25 @@
 # 关于
 ![logo](https://s1.ax1x.com/2023/07/29/pPSMsTU.png)
 [我的邮箱](mailto:791349367@qq.com)
+## 常用网站
+### code相关
+#### GitHub
+账号:791349367@qq.com
+#### Gitee 码云
+账号:791349367@qq.com
+### blog相关
+#### byethost
+站点:[皮卡强的博客](http://pikaqiang.byethost3.com)
+账号:PIKAQIANG
+全站管理:http://panel.byethost.com/index.php
+账号:b3_33130027
+#### 云上写作
+http://www.yunshangxiezuo.com/
+#### 
 
 
-
-
-## markdown语法
+## 关于code
+### markdown语法
 [官网教程](https://markdown.com.cn/basic-syntax/)
 
 1. 标题
@@ -45,7 +59,7 @@
 
 
 
-## HTML 超文本标记语言  记忆点
+### HTML 超文本标记语言  记忆点
 1. 表格
 <table>
   <tr>
@@ -83,14 +97,3 @@
   </tr>
 </table>
 ```
-2. 
-
-
-
-
-
-
-
-
-
-
