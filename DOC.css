@@ -10,14 +10,8 @@
 
 
 @media (min-width: 666px) {
-    body {
-        background-color: #F4F5F7;
-    }
-
     .doc-home-link {
         padding: 40px 60px;
-        border: .0625rem solid rgba(0, 0, 0, .05);
-        box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
     }
 }
 
