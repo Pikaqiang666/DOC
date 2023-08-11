@@ -49,11 +49,21 @@ http://www.yunshangxiezuo.com/
    1. `单行代码` 语法: 用两个`围住代码(不可换行)
    2. ```代码块``` 语法: 三个`围住代码(可换行)可在```后面接语言名称获得高亮
 7. 表格
-   - 不好展示,以下是截图
-   - ![截图](https://s1.ax1x.com/2023/07/29/pPS1HtU.png)
-   - ![截图](https://s1.ax1x.com/2023/07/29/pPS1bhF.png)
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+或者
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```markdown
+1，1|1，2|1，3
+2，1|2，2|2，3
 
-
+```
+建议使用HTML格式表格
 
 
 
