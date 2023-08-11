@@ -9,7 +9,7 @@
         href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/line-numbers/prism-line-numbers.css"> -->
-        <link rel="stylesheet" href="./prism.css">
+        <link rel="stylesheet" href="../prism.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             }
         };
         // 使用 fetch 获取 markdown 文件内容
-        fetch('皮卡强的md记忆.md')
+        fetch('../markdown/皮卡强的md记忆.md')
             .then(response => response.text())
             .then(text => {
                 // 使用 marked 解析 markdown 文件内容
@@ -40,7 +40,7 @@
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/show-language/prism-show-language.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js" defer></script>-->
-<script src="./prism.js" defer></script>
+<script src="../prism.js" defer></script>
 </body>
 
 </html>
