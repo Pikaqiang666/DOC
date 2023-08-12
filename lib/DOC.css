@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
 }
+
 .doc-home-link {
     display: flex;
     padding: 20px 10px;
@@ -95,11 +96,13 @@ h1 {
     border-bottom: #F7CAC9 2px solid;
     margin-bottom: 0.7rem;
 }
+
 code {
     background: #00000007;
     border-radius: 0.2rem;
     border: #00000023 1px solid;
 }
+
 th {
     font-size: 1.2rem;
     color: #333;
@@ -107,7 +110,20 @@ th {
     border: 1px solid #333;
     text-align: center;
 }
+
 td {
     border: 1px solid #333;
     padding: 0.5rem;
+}
+
+kbd {
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom: 0.17rem solid #f3a4b5;
+}
+
+pre {
+    border-top: 0.5rem solid #f07e8c;
+    border-left: 0.3rem solid #f07e8c;
+    border-right: 0.3rem solid #f07e8c;
 }
