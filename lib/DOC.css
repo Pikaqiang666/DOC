@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .doc-home-link {
     display: flex;
     padding: 20px 10px;
@@ -20,7 +23,7 @@
 }
 
 .bg-success {
-    background-color: #049f19 !important;
+    background-color: #f3a4b5 !important;
 }
 
 .doc-home-header {
@@ -52,7 +55,7 @@
     box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
     color: #FFF;
     border-color: #f4f5f7;
-    background-color: #049f19;
+    background-color: #eea5a5;
     text-decoration: none;
     position: fixed;
     transition: all .15s ease;
@@ -69,10 +72,42 @@
 .doc-top:hover {
     bottom: 30px;
 }
+
 img {
     display: block;
     margin: 0 auto;
 }
+
 a {
+    color: #f07e8c;
     text-decoration: none;
+}
+
+p {
+    color: #333;
+}
+
+h1 {
+    display: block;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: #F7CAC9 2px solid;
+    margin-bottom: 0.7rem;
+}
+code {
+    background: #00000007;
+    border-radius: 0.2rem;
+    border: #00000023 1px solid;
+}
+th {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+    border: 1px solid #333;
+    text-align: center;
+}
+td {
+    border: 1px solid #333;
+    padding: 0.5rem;
 }
