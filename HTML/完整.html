@@ -1,18 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <title>Marked in the browser</title>
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/themes/prism-tomorrow.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/line-numbers/prism-line-numbers.css"> -->
-        <link rel="stylesheet" href="../prism.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- favicon ico -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css" />
+    <!-- Bootstrap ICON -->
+    <link rel="stylesheet" href="../lib/icon/bootstrap-icons.min.css">
+    <!-- DOC CSS -->
+    <link rel="stylesheet" href="../lib/DOC.css">
+    <!-- Prism.js -->
+    <link rel="stylesheet" href="../lib/prism.css">
+
+    <title>完整</title>
 </head>
 
 <body>
+    <!-- 导航栏navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-success">
+        <div class=" container-fluid">
+            <a class="navbar-brand" href="#">PIKAQIANG'DOC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home-主页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MINECRAFT相关</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">其它</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content" class="container"></div>
+<div class="toc"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script>
         const options = {
             gfm: true,
@@ -32,15 +89,10 @@
                 document.getElementById('content').innerHTML = parsedContent;
             });
     </script>
-    <div id="content"></div>
-    <script src="../marked.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/marked@3.0.8/marked.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/components/prism-core.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/show-language/prism-show-language.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js" defer></script>-->
-<script src="../prism.js" defer></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/marked.min.js"></script>
+    <script src="../lib/prism.js" defer></script>
+   
 </body>
 
 </html>
