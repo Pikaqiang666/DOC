@@ -16,6 +16,13 @@ h6 {
     color: #32325d;
 }
 
+.re-404 {
+    margin-top: 5rem;
+    font-size: 1rem;
+    bottom: 2rem;
+    color: #525f7f;
+}
+
 .i-404 {
     font-size: 12vw;
     width: 100%;
