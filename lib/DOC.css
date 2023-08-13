@@ -16,10 +16,30 @@ h6 {
     color: #32325d;
 }
 
+.i-404 {
+    font-size: 12vw;
+    width: 100%;
+    text-align: center;
+}
+
+.box-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-404 {
+    font-size: 4vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .doc-home-link {
     display: flex;
     padding: 20px 10px;
     margin-bottom: 5rem;
+    color: #32325d;
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 1rem;
@@ -44,13 +64,17 @@ h6 {
 .doc-home-header {
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 300;
+    color: #32325d;
     line-height: 1.2;
     margin-bottom: 0.2rem;
 }
 
 .doc-home-link-body {
+    font-weight: 300;
+    line-height: 1.7;
     margin-top: 0.5rem;
     font-size: 1rem;
+    color: #525f7f;
 }
 
 .doc-home-tag {
