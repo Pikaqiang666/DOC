@@ -1,3 +1,4 @@
+[toc]
 ## CSDN新版Markdown编辑器(Alpha 2.0版) 使用示例
 
 **具体更新:**
