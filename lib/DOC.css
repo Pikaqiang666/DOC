@@ -169,16 +169,15 @@ td {
 }
 
 kbd {
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom: 0.17rem solid #f3a4b5;
+    background-color: #f69aa4;
+    box-shadow: 0px 2px 0 #f9b9c4;
 }
 
 blockquote {
     background: #9fa16305;
     padding: 0.5rem 0;
     padding-left: 1.5rem;
-    border-left: 0.5rem solid pink;
+    border-left: 0.5rem solid rgb(255, 192, 203);
 }
 
 blockquote p {
