@@ -75,6 +75,16 @@ h6 {
     color: #32325d;
     line-height: 1.2;
     margin-bottom: 0.2rem;
+    background: linear-gradient(to right, #ea6bae9a, #f2848491) no-repeat right bottom;
+    background-size: 0 0.17rem;
+    transition: background-size 0.3s ease-out;
+    border-radius: 3px;
+}
+
+.doc-home-header:hover {
+    background-position-x: left;
+    background-size: 100% 0.17rem;
+
 }
 
 .doc-home-link-body {
@@ -117,6 +127,26 @@ h6 {
 .doc-top:hover {
     bottom: 30px;
 }
+
+.fp-link {
+    color: #333;
+
+    background: linear-gradient(to right, #00ff489a, #ff000091) no-repeat right bottom;
+    background-size: 0 0.25rem;
+    transition: background-size 0.3s ease-out;
+}
+
+.fp-link:hover {
+    background-position-x: left;
+    background-size: 100% 0.25rem;
+}
+
+
+
+
+
+
+
 
 img {
     display: block;
