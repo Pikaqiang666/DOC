@@ -1,3 +1,6 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Ma+Shan+Zheng&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap');
+
 body {
     overflow-x: hidden;
     color: #525f7f;
@@ -170,12 +173,16 @@ p {
 }
 
 h1 {
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     display: block;
     line-height: 1.7;
     text-align: center;
     border-radius: 0.11rem;
     border-bottom: #F7CAC9 2px solid;
     margin-bottom: 0.7rem;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 code {
