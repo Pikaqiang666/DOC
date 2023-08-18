@@ -76,7 +76,12 @@ h6 {
     background-color: #f3a4b5 !important;
 }
 
+.text-font {
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
 .doc-home-header {
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 300;
     color: #32325d;
@@ -147,13 +152,6 @@ h6 {
     background-position-x: left;
     background-size: 100% 0.25rem;
 }
-
-
-
-
-
-
-
 
 img {
     display: block;
