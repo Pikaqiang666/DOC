@@ -17,6 +17,10 @@ h6 {
     color: #32325d;
 }
 
+.opacity-90 {
+    opacity: 0.88 !important;
+}
+
 .re-404 {
     margin-top: 5rem;
     font-size: 1rem;
