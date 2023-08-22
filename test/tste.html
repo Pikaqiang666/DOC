@@ -1,21 +1,29 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Marked in the browser</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="/lib/DOC.css">
+
+  <title>Document</title>
 </head>
-
 <body>
-    <div id="content"></div>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script>
-
-        const {marked} = new require("marked")
-console.log(marked("# 标记在浏览器中\n\n 呈现 **marked**."));
-    </script>
-    
+  <div class="info">
+    <div class="h">标题info</div>
+    <div class="p">这里是内容物这里是内容物 <code>突出</code></div>
+  </div>
+  <div class="error">
+    <div class="h">标题info</div>
+    <div class="p">这里是内容物这里是内容物 <code>突出</code></div>
+  </div>
+  <div class="warn">
+    <div class="h">标题info</div>
+    <div class="p">这里是内容物这里是内容物 <code>突出</code></div>
+  </div>
+  <div class="success">
+    <div class="h">标题info</div>
+    <div class="p">这里是内容物这里是内容物 <code>突出</code></div>
+  </div>
 </body>
-
 </html>
