@@ -1,0 +1,105 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Ma+Shan+Zheng&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap');
+
+body {
+    margin: 0;
+    padding: 0.2vh;
+    padding-top: 20px;
+    height: 100dvh;
+    background-image: linear-gradient(#d4eaf7, #FFF);
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 7dvh;
+}
+
+.h-left {
+    float: left;
+    width: 50dvw;
+}
+
+.h-left a {
+    padding: 7px;
+    color: #999;
+    text-decoration: none;
+    font-size: 7dvw;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.h-left .achive {
+    color: #222;
+    border-bottom: 5px solid #66ccff;
+}
+
+.h-right {
+    float: right;
+    text-align: end;
+}
+
+.h-right button {
+    border-radius: 50%;
+    height: 9dvw;
+    width: 9dvw;
+    box-shadow: 3px 4px 13px 0px #0000003d;
+    border: 0;
+    margin-right: 10px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 128px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 1px 3px 20px 0px #0000002e;
+}
+
+.cardp img {
+    max-width: 114.5px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cardt {
+    padding: 7px;
+    background-color: #d4eaf7;
+    height: 70%;
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 2px #04e3ff14;
+}
+
+.cardk {
+    z-index: 1;
+    position: absolute;
+    right: 32px;
+    float: right;
+    width: 40px;
+    height: 100px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.cardb {
+    z-index: 2;
+    position: absolute;
+    right: 19px;
+    height: 40px;
+    width: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    box-shadow: 3px 4px 13px 0px #0000003d;
+}

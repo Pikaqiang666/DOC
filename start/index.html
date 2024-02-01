@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>₍˄·͈༝·͈˄*₎◞</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    html {
+      height: 100vh;
+      width: 100dvw
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Exo 2', sans-serif;
+      text-align: center;
+      height: 100dvh;
+      background-image: url('./img/wallhaven-dgv23j.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      overflow: hidden;
+      transition: 0.5s ease-in-out;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      vertical-align: middle
+    }
+
+    ::-webkit-scrollbar {
+      display: none
+    }
+
+    .search {
+      margin-top: 20px
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      border: none;
+      width: 60vw;
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.08);
+      backdrop-filter: blur(1.5px);
+      color: #eee;
+      transition: 0.5s ease-in-out
+    }
+
+    input:focus-visible {
+      outline: none;
+      backdrop-filter: blur(6px);
+      background-color: rgba(225, 225, 225, 0.35);
+      transition: 0.5s ease-in-out
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #3D3736;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px
+    }
+
+    .time {
+      margin: 0 auto;
+      margin-bottom: 20px;
+      font-size: 50px;
+      font-weight: 600;
+      color: rgba(59, 62, 64, 0.8)
+    }
+
+    .date {
+      padding-top: 50px;
+      color: #333
+    }
+
+    .links {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center
+    }
+
+    .link {
+      margin: 0 10px;
+      font-size: 16px;
+      font-weight: 600
+    }
+
+    a {
+      text-decoration: none;
+      color: #555;
+      transition: color 0.3s
+    }
+
+    a:hover {
+      color: #000
+    }
+
+    .favorites {
+      display: flex;
+      margin: 0 auto;
+      margin-top: 30px;
+      height: 0;
+      width: 90vw;
+      overflow: hidden;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      transition: 0.5s ease-in-out;
+      backdrop-filter: blur(5px);
+      border-radius: 10px
+    }
+
+    .favorite {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70px;
+      height: 80px
+    }
+
+    .favorite-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+
+    .favorite-icon:hover {
+      width: 60px;
+      height: 60px;
+      transition: 0.3s ease-out
+    }
+
+    .favorite-name {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #666
+    }
+
+    .footer {
+      color: #222;
+      font-size: 12px;
+      font-family: sans-serif
+    }
+  </style>
+</head>
+
+<body>
+  <div id="dian" onclick="toggleHeight()">
+    <div class="date" id="date"></div>
+    <div class="time" id="time"></div>
+  </div>
+  <div class="search">
+    <form action="https://www.bing.com/search" method="GET">
+      <input type="text" name="q" placeholder="在Bing中搜索..." required autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+  <div class="favorites" id="fav">
+    <a class="favorite" href="http://klpbbs.com/">
+      <img src="img/game_mc.png" class="favorite-icon">
+      <div class="favorite-name">苦力怕论坛</div>
+    </a>
+    <a class="favorite" href="https://mail.qq.com/">
+      <img src="img/qq_mail.png" class="favorite-icon">
+      <div class="favorite-name">QQ邮箱</div>
+    </a>
+    <a class="favorite" href="https://music.163.com/">
+      <img src="img/net_ease_music_3.png" class="favorite-icon">
+      <div class="favorite-name">网易云音乐</div>
+    </a>
+    <a class="favorite" href="https://youdao.com/">
+      <img src="img/youdao.png" class="favorite-icon">
+      <div class="favorite-name">有道翻译</div>
+    </a>
+    <a class="favorite" href="https://bilibili.com/">
+      <img src="img/bilibilibog.png" class="favorite-icon">
+      <div class="favorite-name">bilibili</div>
+    </a>
+    <a class="favorite" href="https://manga.bilibili.com">
+      <img src="img/bilibili_link.png" class="favorite-icon">
+      <div class="favorite-name">哔哩哔哩漫画</div>
+    </a>
+    <a class="favorite" href="https://miyoushe.com/ys">
+      <img src="img/mihoyo_yuanshen.png" class="favorite-icon">
+      <div class="favorite-name">原神
+      </div>
+    </a>
+  </div>
+  <footer class="footer">
+    <p>Made by：<strong><a href="http://blog.pikaqiang.ml/">PIKAQIANG.ML</a></strong></p>
+  </footer>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const date = now.toDateString();
+      const time = now.toLocaleTimeString();
+      var favDiv = document.getElementById("fav");
+      document.getElementById("date").textContent = date;
+      document.getElementById("time").textContent = time;
+    }
+    setInterval(updateTime, 10);
+    var favDiv = document.getElementById("fav");
+
+    function toggleHeight() {
+      if (favDiv.style.height === "300px") {
+        favDiv.style.height = "0";
+      } else {
+        favDiv.style.height = "300px";
+      }
+    }
+  </script>
+</body>
+
+</html>
