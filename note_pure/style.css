@@ -1,0 +1,186 @@
+body {
+  background-color: #790002;
+  background-color: #4fc;
+  position: static;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  color: #EEE;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  margin: auto;
+  margin-top: 13vh;
+  transition: all 0.5s ease-in-out;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main {
+  z-index: 50;
+  margin: 0 auto;
+  margin-top: 8vh;
+  width: 89%;
+  font-size: 22px;
+  font-family: 'Minecraft', 'Noto Sans SC', sans-serif;
+  text-align: center;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.option {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 19px;
+  line-height: 1.5rem;
+  white-space: nowrap;
+  border: none;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  animation-name: fadeInUp;
+  animation-duration: calc(0.25s * var(--index));
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  font-size: 27px;
+  white-space: nowrap;
+}
+
+.save {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 15rem;
+  width: 1.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.save:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.save-block {
+  display: block;
+  height: 1.75rem;
+  overflow: hidden;
+}
+
+#save-btn,
+#load-btn {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  height: 1.45rem;
+  line-height: 1.45rem;
+  font-size: 1.25rem
+}
+#save-show {
+  float: left;
+  width: 1.3rem;
+  text-align: center;
+  height: 15rem;
+  font-size: 1.2rem;
+  line-height: 15rem;
+  margin: auto;
+  color: #fff;
+}
+#save-close {
+  float: left;
+  width: 1.3rem;
+  text-align: center;
+  height: 15rem;
+  font-size: 1.2rem;
+  line-height: 15rem;
+  margin: auto;
+  color: #fff;
+}
+
+#save-input,
+#load-input {
+  margin-bottom: 5px;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  height: 1.25rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none 0px;
+  color: #eee;
+}
+
+#save-list {
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+  list-style: none;
+  overflow-x: scroll;
+}
+
+#save-list li {
+  line-height: 17px;
+  font-size: 16px;
+  width: 99%;
+  overflow-x: scroll;
+}
+
+#save-list button {
+  width: 50px;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.save button:hover {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 1s all ease-out;
+}

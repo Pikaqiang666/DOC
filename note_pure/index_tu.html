@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TXT</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<style>
+  body {
+    background-image: url(./纳西妲.png);
+  }
+</style>
+<body id="body">
+  <div class="title" id="title">高端大气上档次</div>
+  <div class="main" id="txt">正文</div>
+  <div class="option">
+    <button id="1" style="--index:1"></button>
+    <button id="2" style="--index:2"></button>
+    <button id="3" style="--index:3"></button>
+  </div>
+  <div class="save" id="save">
+	  <div id="save-show" onclick="showSave()" style="display: block;"><i class="bi bi-chevron-compact-left"></i></div>
+	  <div id="save-close" onclick="closeSave()" style="display: none;"><i class="bi bi-chevron-compact-right"></i></div>
+    <div>
+      <div class="save-block">
+      <input type="text" id="save-input" placeholder="输入存档名">
+      <button id="save-btn">保存</button>
+    </div>
+    <div class="save-block">
+      <input type="text" id="load-input" placeholder="输入存档名">
+      <button id="load-btn">加载</button>
+    </div>
+    <p style="color: #eee;font-size: 16px;overflow: hidden;margin: 0px;">已保存的存档:</p>
+    <ul id="save-list"></ul>
+    </div>
+    </div>
+  <script src="main.js"></script>
+  <script src="./background.js"></script>
+  </body>
+</html>
